@@ -1,0 +1,24 @@
+@use './colors.scss' as *;
+@use '../utility/' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  box-sizing: border-box;
+}
+
+body {
+  background: $dark;
+}
+
+.card {
+  width: 90%;
+  min-width: rem(560);
+  background: linear-gradient(135deg, $green, $purple);
+  color: $white;
+  margin: 100px auto 0;
+  border-radius: 20px;
+  padding: rem(40) rem(35);
+  text-align: center;
+}

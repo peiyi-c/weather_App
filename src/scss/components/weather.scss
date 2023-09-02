@@ -1,0 +1,50 @@
+@use '../utility/' as *;
+
+.weather {
+  //display: none;
+  opacity: 0;
+  height: 0;
+  transition: all 700ms ease-in;
+
+  h1 {
+    font-size: rem(80);
+    font-weight: 500;
+  }
+
+  h2 {
+    font-size: rem(45);
+    font-weight: 400;
+    margin-top: rem(-10);
+  }
+
+  &-icon {
+    width: rem(170);
+    margin-top: rem(30);
+  }
+
+  &__details {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 rem(20);
+    margin-top: rem(50);
+
+    &__col {
+      display: flex;
+      align-items: center;
+      text-align: left;
+
+      img {
+        width: rem(40);
+        margin-right: rem(10);
+      }
+
+      .humidity,
+      .wind {
+        font-size: rem(26);
+        margin-top: rem(-6);
+      }
+    }
+  }
+
+}

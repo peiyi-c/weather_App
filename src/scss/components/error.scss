@@ -1,0 +1,11 @@
+@use '../utility/' as *;
+
+.error {
+  //display: none;
+  opacity: 0;
+  height: 0;
+  transition: all 300ms ease-out;
+  text-align: center;
+  margin: rem(30) auto 0;
+  font-size: rem(14);
+}
