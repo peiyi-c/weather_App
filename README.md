@@ -14,10 +14,10 @@ Users should be able to:
 ### Screenshots
 
 When city name exists \
-![Found](https://github.com/peiyi-c/weather_App/assets/73789013/a2b03ab1-0da0-46ed-91d4-8de4d3db4c2e)
+![Found](https://github.com/peiyi-c/weather_App/assets/73789013/47c53103-8b4e-4f9c-857b-03bad70aaab2)
 
 When city name has no match \
-![No match](https://github.com/peiyi-c/weather_App/assets/73789013/4030eb2a-4bc6-48e1-b660-4ede43e66556)
+![No match](https://github.com/peiyi-c/weather_App/assets/73789013/3b271fa7-bb75-44a3-a6da-3bfe9a9c4a2e)
 
 ### Link
 
